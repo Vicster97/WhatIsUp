@@ -1,5 +1,6 @@
 .navbar-items {
-    background: linear-gradient(90deg, rgba(109,237,109,1),rgba(23,190,23));
+    background: linear-gradient(90deg,
+    var(--wiuLightGreen),var(--wiuMainGreen), var(--wiuDarkGreen));
     height: 100px;
     width: 100%;
     display: flex;
@@ -49,7 +50,7 @@
 }
 
 .nav-links:hover {
-    background-color: green;
+    background-color: var(--wiuLightGreen);
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
