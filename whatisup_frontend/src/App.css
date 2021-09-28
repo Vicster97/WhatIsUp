@@ -1,3 +1,11 @@
+:root {
+  --wiuMainGreen: #5cdb95;
+  --wiuLightGreen: #8ee4af;
+  --wiuDarkGreen: #379683;
+  --wiuBlue: #05386b;
+  --wiuWhite: #edf5e1;
+}
+
 .App {
   text-align: center;
 }
