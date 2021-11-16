@@ -2,15 +2,15 @@ import React from "react";
 import "./../App.css"
 import Navbar from "../Components/Navbar";
 
-function Home() {
+function Data() {
     return (
         <div>
             <Navbar/>
             <div className="page-body">
-                <h1 className="page-welcome-message">Welcome to Home page of WhatIsUp?</h1>
+                <h1 className="page-welcome-message">Welcome to Data Page of WhatIsUp?</h1>
             </div>
         </div>
     );
 };
 
-export default Home;
+export default Data;
