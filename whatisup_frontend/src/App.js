@@ -8,7 +8,7 @@ import Hello from './Pages/Hello';
 function App() {
   return (
     <Router basename="/">
-      <Route exact path='/' component={Hello}/>
+      <Route exact path='' component={Hello}/>
       <Route exact path="/home" component={Home}/>
       <Route exact path='/data' component={Data}/>
     </Router>
